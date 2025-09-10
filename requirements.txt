@@ -1,0 +1,62 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+httpx==0.25.2
+aiohttp==3.9.1
+asyncio-throttle==1.0.2
+
+# Data Processing
+pandas==2.1.4
+numpy==1.25.2
+python-dotenv==1.0.0
+
+# Database & Storage
+sqlalchemy==2.0.23
+alembic==1.13.1
+redis==5.0.1
+psycopg2-binary==2.9.9
+
+# AI & ML
+openai==1.3.7
+anthropic==0.7.8
+langchain==0.0.350
+langchain-community==0.0.1
+
+# Web Scraping & Data Extraction
+beautifulsoup4==4.12.2
+selenium==4.16.0
+scrapy==2.11.0
+requests==2.31.0
+
+# Google Services
+google-api-python-client==2.108.0
+google-auth==2.25.2
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+gspread==5.12.0
+
+# LinkedIn & Social Media
+linkedin-api==2.0.0
+tweepy==4.14.0
+
+# Email & Communication
+sendgrid==6.10.0
+mailgun==0.1.1
+
+# Monitoring & Logging
+structlog==23.2.0
+prometheus-client==0.19.0
+sentry-sdk==1.38.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-mock==3.12.0
+httpx-mock==0.7.0
+
+# Development
+black==23.11.0
+isort==5.12.0
+mypy==1.7.1
+pre-commit==3.6.0
